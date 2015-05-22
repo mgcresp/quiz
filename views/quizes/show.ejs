@@ -14,7 +14,7 @@
 </head>
 <body>
       <form method="get" action="/quizes/<%= quiz.id %>/answer">
-      Pregunta: <%= quiz.pregunta %> <p>
+     <%= quiz.pregunta %> <p>
       <input type="text"  name="respuesta" value="Responda aqui">
       <input type="submit" value="Enviar">
     </form>
