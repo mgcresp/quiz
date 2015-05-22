@@ -8,5 +8,6 @@
   <body>
     <h1><%= title %></h1>
     <p>Bienvenido al magnifico y maravilloso <%= title %></p>
+    <p><a href="/quizes/question"</a>Comience a jugar</p>
   </body>
 </html>
